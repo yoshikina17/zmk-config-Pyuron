@@ -11,7 +11,19 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        on {
+            bindings = <&kp INT_HENKAN>;
+            key-positions = <16 17>;
+        };
+
+        off {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <13 12>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
