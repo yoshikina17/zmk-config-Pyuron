@@ -62,9 +62,9 @@
 
         layer_1 {
             bindings = <
-&trans        &kp N7         &kp N8  &kp N9  &kp LS(UNDER)  &trans    &kp LS(LT)    &kp LS(EQUAL)  &kp LS(GT)    &kp COLON
+&trans        &kp N1         &kp N2  &kp N3  &kp LS(UNDER)  &trans    &kp LS(LT)    &kp LS(EQUAL)  &kp LS(GT)    &kp COLON
 &kp NUMBER_0  &kp N4         &kp N5  &kp N6  &kp DOT        &kp LEFT  &kp LS(PLUS)  &kp MINUS      &kp LS(STAR)  &kp FSLH
-&trans        &kp N1         &kp N2  &kp N3  &kp COMMA      &trans    &trans        &kp RIGHT      &kp LS(EXCL)  &kp LS(QMARK)
+&trans        &kp N7         &kp N8  &kp N9  &kp COMMA      &trans    &trans        &kp RIGHT      &kp LS(EXCL)  &kp LS(QMARK)
 &kp CARET     &kp LS(PRCNT)  &trans  &trans  &trans         &trans    &trans        &trans         &trans        &trans
             >;
         };
