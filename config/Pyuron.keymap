@@ -15,12 +15,12 @@
         compatible = "zmk,combos";
 
         on {
-            bindings = <&kp INT_HENKAN>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <16 17>;
         };
 
         off {
-            bindings = <&kp INT_MUHENKAN>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <13 12>;
         };
     };
